@@ -1,0 +1,28 @@
+{
+  "url": "http://3.250.159.203:80",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "user": "bn_ghost",
+      "password": "e5f29a7590",
+      "database": "bitnami_ghost"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/opt/bitnami/apps/ghost/htdocs/content"
+  }
+}
